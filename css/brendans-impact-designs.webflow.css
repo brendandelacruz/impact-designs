@@ -104,7 +104,7 @@ p {
 }
 
 .body-02 {
-  color: #5b5b5b;
+  color: #cfcfcf;
   font-family: Intertight, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -240,7 +240,7 @@ p {
 }
 
 .about-me-homepage p {
-  color: #f5f5f5;
+  color: #141414;
   margin-top: 30px;
 }
 
@@ -250,8 +250,9 @@ p {
 
 .about-me-header-02 p {
   background-color: #008fd6;
-  color:#141414;
-  font-size: 18px;
+  color: #141414;
+  font-size: 21px;
+  font-weight: 600;
   text-align: center;
   padding: 10px 0;
 }
@@ -280,7 +281,7 @@ p {
 }
 
 .heading-02 {
-  color: #141414;
+  color: rgb(245, 245, 245);
   letter-spacing: -.32px;
   font-family: Intertight, sans-serif;
   font-size: 56px;
@@ -289,7 +290,8 @@ p {
 }
 
 .heading-02.color-blue {
-  color: #f5f5f5;
+  color: #141414;
+  text-align: center;
 }
 
 .heading-02.align-center {
@@ -298,14 +300,25 @@ p {
 
 .shopify-heading {
   text-align: center;
+  color: #141414;
+}
+
+.shopify-screenshot-display {
+  transition: 0.3s;
 }
 
 .shopify-screenshot-display:hover {
   opacity: 0.7;
+  transition: 0.3s;
 }
 
 .store-password {
   margin: 15px 0;
+}
+
+.bold-view-store {
+  color: black;
+  font-weight: 600;
 }
 
 .strategies-content-02 {
@@ -408,14 +421,6 @@ p {
   line-height: 32px;
 }
 
-.sub-heading-03.color-black {
-  color: #141414;
-}
-
-.sub-heading-03.color-black.color-gray {
-  color: #5b5b5b;
-}
-
 .branding-logo {
   margin-right: 16px;
 }
@@ -426,6 +431,7 @@ p {
   padding-top: 170px;
   padding-bottom: 170px;
   display: flex;
+  background-color: #141414;
 }
 
 .featured-container {
@@ -473,8 +479,8 @@ p {
 
 .website-content-02 {
   z-index: 1;
-  border-top: 1px solid #e5e5e5;
-  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
   justify-content: space-between;
   align-self: stretch;
   padding-top: 16px;
@@ -488,7 +494,7 @@ p {
 }
 
 .body-01 {
-  color: #141414;
+  color: white;
   font-family: Intertight, sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -550,7 +556,7 @@ p {
 }
 
 .exprerice-and-tools {
-  background-color: #141414;
+  background-color: white;
   justify-content: center;
   align-items: center;
   padding-top: 120px;
@@ -566,7 +572,7 @@ p {
   overflow: hidden;
 }
 
-.tools-content-01 {
+/* .tools-content-01 {
   align-items: center;
   margin-bottom: 10px;
   display: flex;
@@ -609,7 +615,7 @@ p {
   justify-content: center;
   align-items: center;
   display: flex;
-}
+} */
 
 .image-6 {
   max-width: 47%;
@@ -953,6 +959,12 @@ p {
 
 .footer-media-link {
   margin-right: 16px;
+  transition: .3s;
+}
+
+.footer-media-link:hover {
+  opacity: 0.6;
+  transition: .3s;
 }
 
 .footer-media-link._02 {
@@ -2443,7 +2455,7 @@ p {
 }
 
 .portfolio-link {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid black;
   text-decoration: none;
 }
 
@@ -3132,6 +3144,13 @@ p {
   .about-me {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+
+  .about-me-header-02 p {
+    background-color: #008fd6;
+    color: #141414;
+    font-size: 17px;
+    font-weight: 600;
   }
 
   .strategies-container {
