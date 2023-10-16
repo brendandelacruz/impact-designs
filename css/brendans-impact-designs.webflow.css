@@ -483,8 +483,8 @@ p {
   border-bottom: 1px solid #cfcfcf;
   justify-content: space-between;
   align-self: stretch;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   display: flex;
   position: relative;
 }
