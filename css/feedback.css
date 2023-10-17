@@ -47,9 +47,10 @@ a {
     text-align: center;
     margin-top: 20px;
     transition: 0.3s;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     width: 150px;
+    border-radius: 5px;
 }
 
 a:hover {
