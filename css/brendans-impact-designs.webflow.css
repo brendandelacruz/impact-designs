@@ -95,7 +95,7 @@ p {
   font-weight: 400;
 }
 
-.heading-01.color-white {
+.heading-01.color-white{
   color: #fff;
 }
 
@@ -213,7 +213,6 @@ p {
 .link-block:hover {
   opacity: .8;
   mix-blend-mode: normal;
-  cursor: none;
 }
 
 .clients-logo {
@@ -449,7 +448,7 @@ p {
 .featured-content-01 {
   justify-content: space-between;
   align-items: flex-end;
-  margin-bottom: 80px;
+  margin-bottom: 0;
   display: flex;
   overflow: hidden;
 }
@@ -2595,9 +2594,8 @@ p {
     margin-bottom: 0;
   }
 
-
   .featured-heading {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
 
   .shopify-heading {
