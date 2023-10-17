@@ -213,6 +213,7 @@ p {
 .link-block:hover {
   opacity: .8;
   mix-blend-mode: normal;
+  cursor: none;
 }
 
 .clients-logo {
@@ -937,7 +938,7 @@ p {
 .footer-email {
   justify-content: center;
   align-items: center;
-  margin-top: 14px;
+  margin: 15px 0;
   display: flex;
 }
 
@@ -2371,6 +2372,12 @@ p {
 
 .contact-link {
   text-decoration: none;
+  transition: 0.3s;
+}
+
+.contact-link:hover {
+  opacity: 0.7;
+  transition: .3s;
 }
 
 .webflow-link {
