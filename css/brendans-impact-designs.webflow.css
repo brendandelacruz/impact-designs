@@ -269,6 +269,10 @@ p {
   margin-right: 3px;
 }
 
+.color-blue {
+  color: #008fd6;
+}
+
 .strategies-container {
   max-width: 1240px;
   flex: 1;
