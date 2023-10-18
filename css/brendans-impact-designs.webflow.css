@@ -448,7 +448,7 @@ p {
 .featured-content-01 {
   justify-content: space-between;
   align-items: flex-end;
-  margin-bottom: 0;
+  margin-bottom: 35px;
   display: flex;
   overflow: hidden;
 }
