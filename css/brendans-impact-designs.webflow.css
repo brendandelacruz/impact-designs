@@ -157,12 +157,14 @@ p {
   font-weight: 500;
   line-height: 24px;
   position: relative;
+  transition: 0.3s;
 }
 
 .free-call-btn:hover {
   color: #141414;
   background-color: #fff;
   border: 1px solid #141414;
+  transition: 0.3s;
 }
 
 .hero-buttons {
@@ -180,11 +182,13 @@ p {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
+  transition: 0.3s;
 }
 
 .view-project-btn:hover {
   color: #fff;
   background-color: #141414;
+  transition: 0.3s;
 }
 
 .view-project {
@@ -237,15 +241,6 @@ p {
   padding-top: 144px;
   padding-bottom: 170px;
   display: flex;
-}
-
-.about-me-homepage p {
-  color: #141414;
-  margin-top: 30px;
-}
-
-.about-me-img {
-  padding: 10px 40px;
 }
 
 .about-me-header-02 p {
@@ -534,29 +529,8 @@ p {
   max-width: 100%;
 }
 
-.website-02 {
-  justify-content: flex-end;
-  margin-bottom: 60px;
-  display: flex;
-}
-
 .website-02._02 {
   margin-bottom: 0;
-}
-
-.website-04 {
-  justify-content: flex-end;
-  margin-bottom: 80px;
-  display: flex;
-}
-
-.website-01 {
-  margin-bottom: 60px;
-  padding-top: 0;
-}
-
-.website-03 {
-  margin-bottom: 60px;
 }
 
 .exprerice-and-tools {
@@ -903,13 +877,6 @@ p {
   margin-bottom: 120px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-}
-
-.email-text {
-  justify-content: center;
-  align-items: center;
-  margin-top: 80px;
   display: flex;
 }
 
@@ -2102,23 +2069,6 @@ p {
   align-items: center;
   display: flex;
   position: relative;
-}
-
-.project-image-box-2 {
-  height: 522px;
-  max-width: 707px;
-  flex-direction: column;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  position: relative;
-  overflow: hidden;
-}
-
-.feature-link {
-  min-height: 440px;
-  text-decoration: none;
 }
 
 .navbar-2 {
