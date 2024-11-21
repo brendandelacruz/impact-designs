@@ -200,6 +200,17 @@ p {
   display: flex;
 }
 
+.transform-social-icons {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.transform-social-icons:hover {
+  transform: translate(0, -5px);
+  opacity: 0.8; /* Optional: adjust opacity to create a fade effect */
+}
+
 .follow {
   max-width: 231px;
   margin-top: 120px;
