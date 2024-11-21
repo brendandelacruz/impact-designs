@@ -2242,6 +2242,10 @@ p {
   position: relative;
 }
 
+.project-box-3:hover {
+  cursor: default;
+}
+
 .project-box-3.align-left {
   justify-content: space-between;
 }
